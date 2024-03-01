@@ -1,0 +1,50 @@
+/* Reset CSS */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Estilos para el contenedor de la bandera */
+.bandera {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    border: 2.5px solid;
+    box-sizing: border-box;
+}
+
+/* Estilos para las franjas de la bandera */
+.franja {
+    width: 100%;
+    height: calc(100% / 3);
+}
+
+.superior {
+    background-color: aqua;
+}
+
+.central {
+    background-color: #ffffff;
+}
+
+.inferior {
+    background-color: aqua;
+}
+
+
+/* Estilos para el símbolo central */
+.simbolo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: #ffff00;
+    border-width:  50%;
+}
